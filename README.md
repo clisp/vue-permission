@@ -1,29 +1,12 @@
 # vue-permission
 
-## Project setup
+从element-admin 抽出,由于自定义指令在 tab元素中无法使用,舍弃掉了。
+
+将 people  ->  role  ->  modules 对应，均为1对多 
+
+使用方法:
 ```
-npm install
+v-if="this.checkPermission(['module1'])">
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
