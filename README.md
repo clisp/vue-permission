@@ -8,6 +8,26 @@
 使用方法:
 ```
 v-if="this.checkPermission(['module1'])">
+
+
+```
+
+对应关系
+```
+ state: {
+        roles: {
+            admin: {
+                name: '管理员',
+            },
+            job1: {
+                name: '职工1'
+            },
+        },
+        module: {
+            module1: {name: '模块1'},
+            module2: {name: '模块2'}
+        }
+    },
 ```
 
 
