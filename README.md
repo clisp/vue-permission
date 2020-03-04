@@ -1,6 +1,9 @@
 # vue-permission
 
-从element-admin 抽出,由于自定义指令在 tab元素中无法使用,舍弃掉了。
+vue前端功能级别权限控制
+
+从element-admin 抽出,仅用到了vue和vuex,
+由于自定义指令在 tab元素中无法使用,舍弃掉了。
 
 最大化满足业务的要求:
 改为 people  ->  role  ->  modules 对应，均为一对多 
